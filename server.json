@@ -13,6 +13,6 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "express": "^11.9.0"
+        "express": "11.9.0"
     }
 }

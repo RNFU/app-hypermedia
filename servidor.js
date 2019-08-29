@@ -2,12 +2,14 @@ const express =require ('express');
 const app = express ();
 
 app.get('/', (req, res) => {
-res.send({ hi: 'there'});
+res.send({ hi: 'hola mundo'});
 
 });
 
 const PORT = process.env.PORT
 app.listen(PORT);
+
+
 
 // node --v
 // npm --v
