@@ -1,18 +1,28 @@
 {
-    "name": "server",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "engines":{
-        "node":"11.9.0",
-        "npm": "6.5.0"
-    },
-    "scripts":{
-        "start": "node servidor.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "express": "^11.9.0"
-    }
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "11.9.0",
+    "npm": "6.5.0"
+  },
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^11.9.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RNFU/app-hypermedia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RNFU/app-hypermedia/issues"
+  },
+  "homepage": "https://github.com/RNFU/app-hypermedia#readme",
+  "description": ""
 }
