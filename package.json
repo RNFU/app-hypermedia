@@ -2,9 +2,9 @@
     "name": "server",
     "version": "1.0.0",
     "description": "",
-    "main": "servidor.js",
+    "main": "index.js",
     "engines":{
-        "node":"v11.9.0",
+        "node":"11.9.0",
         "npm": "6.5.0"
     },
     "scripts":{
